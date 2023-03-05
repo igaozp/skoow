@@ -19,9 +19,14 @@ const router = createRouter({
     },
     {
       path: '/api-style',
-      name: 'ap-style',
+      name: 'api-style',
       component: () => import('../views/ApiStyleView.vue')
     },
+    {
+      path: '/template-syntax',
+      name: 'template-syntax',
+      component: () => import('../views/TemplateSyntaxView.vue')
+    }
   ]
 })
 
