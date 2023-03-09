@@ -16,6 +16,7 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/api-style">API Style</RouterLink>
         <RouterLink to="/template-syntax">Template Syntax</RouterLink>
         <RouterLink to="/reactivity-fundamentals">Reactivity Fundamentals</RouterLink>
+        <RouterLink to="/computed">Computed</RouterLink>
       </nav>
     </div>
   </header>
