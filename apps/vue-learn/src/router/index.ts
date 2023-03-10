@@ -51,6 +51,11 @@ const router = createRouter({
       path: '/list',
       name: 'list',
       component: () => import('../views/List.vue')
+    },
+    {
+      path: '/event-handling',
+      name: 'event-handling',
+      component: () => import('../views/EventHandling.vue')
     }
   ]
 })

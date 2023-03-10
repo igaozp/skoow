@@ -20,6 +20,7 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/class-and-style">Class & Style</RouterLink>
         <RouterLink to="/conditional">Conditional</RouterLink>
         <RouterLink to="/list">List</RouterLink>
+        <RouterLink to="/event-handling">Event Handling</RouterLink>
       </nav>
     </div>
   </header>
