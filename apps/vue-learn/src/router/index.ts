@@ -46,6 +46,11 @@ const router = createRouter({
       path: '/conditional',
       name: 'conditional',
       component: () => import('../views/Conditional.vue')
+    },
+    {
+      path: '/list',
+      name: 'list',
+      component: () => import('../views/List.vue')
     }
   ]
 })

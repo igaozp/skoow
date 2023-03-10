@@ -19,6 +19,7 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/computed">Computed</RouterLink>
         <RouterLink to="/class-and-style">Class & Style</RouterLink>
         <RouterLink to="/conditional">Conditional</RouterLink>
+        <RouterLink to="/list">List</RouterLink>
       </nav>
     </div>
   </header>
