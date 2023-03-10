@@ -41,6 +41,11 @@ const router = createRouter({
       path: '/class-and-style',
       name: 'class-and-style',
       component: () => import('../views/ClassAndStyle.vue')
+    },
+    {
+      path: '/conditional',
+      name: 'conditional',
+      component: () => import('../views/Conditional.vue')
     }
   ]
 })
