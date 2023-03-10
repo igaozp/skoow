@@ -36,6 +36,11 @@ const router = createRouter({
       path: '/computed',
       name: 'computed',
       component: () => import('../views/Computed.vue')
+    },
+    {
+      path: '/class-and-style',
+      name: 'class-and-style',
+      component: () => import('../views/ClassAndStyle.vue')
     }
   ]
 })

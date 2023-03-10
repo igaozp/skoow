@@ -17,6 +17,7 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/template-syntax">Template Syntax</RouterLink>
         <RouterLink to="/reactivity-fundamentals">Reactivity Fundamentals</RouterLink>
         <RouterLink to="/computed">Computed</RouterLink>
+        <RouterLink to="/class-and-style">Class & Style</RouterLink>
       </nav>
     </div>
   </header>
