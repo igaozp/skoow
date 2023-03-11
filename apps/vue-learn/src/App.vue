@@ -22,6 +22,7 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/list">List</RouterLink>
         <RouterLink to="/event-handling">Event Handling</RouterLink>
         <RouterLink to="/forms">Forms</RouterLink>
+        <RouterLink to="/lifecycle">Lifecycle</RouterLink>
       </nav>
     </div>
   </header>
