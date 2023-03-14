@@ -71,6 +71,11 @@ const router = createRouter({
       path: '/watchers',
       name: 'watchers',
       component: () => import('../views/Watchers.vue')
+    },
+    {
+      path: '/template-ref',
+      name: 'template-ref',
+      component: () => import('../views/TemplateRef.vue')
     }
   ]
 })
