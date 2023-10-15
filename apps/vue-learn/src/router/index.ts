@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 
 const router = createRouter({
+  // @ts-ignore
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
@@ -76,6 +77,11 @@ const router = createRouter({
       path: '/template-ref',
       name: 'template-ref',
       component: () => import('../views/TemplateRef.vue')
+    },
+    {
+      path: '/pinia',
+      name: 'pinia',
+      component: () => import('../views/Pinia.vue')
     }
   ]
 })

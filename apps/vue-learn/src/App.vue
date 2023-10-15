@@ -25,6 +25,7 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/lifecycle">Lifecycle</RouterLink>
         <RouterLink to="/watchers">Watchers</RouterLink>
         <RouterLink to="/template-ref">Template Ref</RouterLink>
+        <RouterLink to="/pinia">Pinia</RouterLink>
       </nav>
     </div>
   </header>
