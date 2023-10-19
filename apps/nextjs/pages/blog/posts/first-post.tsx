@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Head from "next/head";
 import Script from "next/script";
+import Image from "next/image";
+import React from "react";
 
 export default function FirstPost() {
     return (
@@ -15,6 +17,8 @@ export default function FirstPost() {
                     console.log(`script loaded correctly, window.FB has been populated`)
                 }
             />
+            <Image src="/images/profile.jpg" alt="Profile" width={144} height={144}>
+            </Image>
             <h1>First Post</h1>
             <h2>
                 <Link href='/blog'>Back to home</Link>
