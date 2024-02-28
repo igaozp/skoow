@@ -15,13 +15,13 @@
     "ui": "workspace:*"
   },
   "devDependencies": {
-    "@babel/core": "^7.23.9",
+    "@babel/core": "^7.24.0",
     "eslint-config-custom": "workspace:*",
-    "eslint": "8.56.0",
+    "eslint": "8.57.0",
     "tsconfig": "workspace:*",
-    "@types/node": "^20.11.16",
-    "@types/react": "^18.2.51",
-    "@types/react-dom": "^18.2.18",
+    "@types/node": "^20.11.21",
+    "@types/react": "^18.2.60",
+    "@types/react-dom": "^18.2.19",
     "typescript": "^5.3.3"
   }
 }
