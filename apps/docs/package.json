@@ -9,19 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "14.1.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "next": "14.2.6",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
     "ui": "workspace:*"
   },
   "devDependencies": {
-    "@babel/core": "^7.24.0",
+    "@babel/core": "^7.25.2",
     "eslint-config-custom": "workspace:*",
-    "eslint": "8.57.0",
+    "eslint": "9.9.0",
     "tsconfig": "workspace:*",
-    "@types/node": "^20.11.21",
-    "@types/react": "^18.2.60",
-    "@types/react-dom": "^18.2.19",
-    "typescript": "^5.3.3"
+    "@types/node": "^22.5.0",
+    "@types/react": "^18.3.4",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.5.4"
   }
 }
