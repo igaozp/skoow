@@ -1,6 +1,6 @@
 # Skoow
 
-This is a frontend repo for personal study, management by turborepo.
+This is a frontend repo for personal study, management by turborepo & pnpm.
 
 ## What's inside?
 
