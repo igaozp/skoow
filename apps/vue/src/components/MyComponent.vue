@@ -6,10 +6,8 @@
 
 <script>
 export default {
-  name: "MyComponent"
-}
+  name: "MyComponent",
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

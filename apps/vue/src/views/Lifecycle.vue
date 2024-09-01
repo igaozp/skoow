@@ -3,35 +3,33 @@
 </template>
 
 <script setup lang="ts">
-import {onBeforeMount, onBeforeUnmount, onBeforeUpdate, onMounted, onUnmounted, onUpdated, ref} from "vue";
+import {onBeforeMount, onBeforeUnmount, onBeforeUpdate, onMounted, onUnmounted, onUpdated, ref,} from "vue";
 
-const count = ref(0)
+const count = ref(0);
 
 onBeforeMount(() => {
-  console.log('Before Mounted')
-})
+  console.log("Before Mounted");
+});
 
 onMounted(() => {
-  console.log('Mounted')
-})
+  console.log("Mounted");
+});
 
 onBeforeUnmount(() => {
-  console.log('Before Unmount')
-})
+  console.log("Before Unmount");
+});
 
 onUnmounted(() => {
-  console.log('Unmounted')
-})
+  console.log("Unmounted");
+});
 
 onBeforeUpdate(() => {
-  console.log('Before Update')
-})
+  console.log("Before Update");
+});
 
 onUpdated(() => {
-  console.log('Update')
-})
+  console.log("Update");
+});
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

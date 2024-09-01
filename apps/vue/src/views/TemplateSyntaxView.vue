@@ -19,7 +19,6 @@
   <p v-if="seen">Now you see me</p>
 
   <a v-bind:href="url">Google</a>
-
 </template>
 
 <script>
@@ -28,21 +27,19 @@ export default {
 
   data() {
     return {
-      msg: 'Mustache value',
+      msg: "Mustache value",
       rawHtml: '<span style="color: red">This should be red.</span>',
-      dynamicId: 'This is a id attribute',
+      dynamicId: "This is a id attribute",
       isButtonDisabled: true,
       objectOfAttrs: {
-        id: 'container',
-        class: 'wrapper'
+        id: "container",
+        class: "wrapper",
       },
       seen: true,
-      url: 'https://www.google.com'
-    }
-  }
-}
+      url: "https://www.google.com",
+    };
+  },
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

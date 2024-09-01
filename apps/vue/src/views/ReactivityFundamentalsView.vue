@@ -6,26 +6,23 @@
 </template>
 
 <script setup>
-import {ref} from "vue"
+import {ref} from "vue";
 
-const state = ref({ count: 1 })
+const state = ref({count: 1});
 
 const obj = ref({
   nested: { count: 0 },
-  arr: ['foo', 'bar']
-})
+  arr: ["foo", "bar"],
+});
 
 function increment() {
-  state.value.count++
+  state.value.count++;
 }
 
 function mutateDeeply() {
-  obj.value.nested.count++
-  obj.value.arr.push('bza')
+  obj.value.nested.count++;
+  obj.value.arr.push("bza");
 }
-
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

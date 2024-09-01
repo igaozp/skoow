@@ -1,13 +1,7 @@
 <template>
-  <button @click="$emit('increaseBy', 1)">
-      Increase by 1
-  </button>
+  <button @click="$emit('increaseBy', 1)">Increase by 1</button>
 </template>
 
-<script setup lang="ts">
+<script setup lang="ts"></script>
 
-</script>
-
-<style scoped>
-
-</style>
+<style scoped></style>

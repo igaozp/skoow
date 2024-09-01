@@ -7,9 +7,7 @@
   <button @click="say('hello')">Say Hello</button>
   <button @click="say('bye')">Say bye</button>
 
-  <button @click="warn('Form cannot be submitted yet.', $event)">
-    Submit
-  </button>
+  <button @click="warn('Form cannot be submitted yet.', $event)">Submit</button>
   <button @click="(event) => warn('Form cannot be submitted yet.', event)">
     Submit
   </button>
@@ -18,29 +16,27 @@
 <script setup lang="ts">
 import {ref} from "vue";
 
-const count = ref(0)
+const count = ref(0);
 
-const name = ref('Vue.js')
+const name = ref("Vue.js");
 
 function greet(event: any) {
-  alert(`Hello ${name.value}!`)
+  alert(`Hello ${name.value}!`);
   if (event) {
-    alert(event.target.tagName)
+    alert(event.target.tagName);
   }
 }
 
-function say(message : string) {
-  alert(message)
+function say(message: string) {
+  alert(message);
 }
 
-function warn(message : string, event : any) {
+function warn(message: string, event: any) {
   if (event) {
-    event.preventDefault()
+    event.preventDefault();
   }
-  alert(message)
+  alert(message);
 }
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

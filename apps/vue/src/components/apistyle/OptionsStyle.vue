@@ -1,7 +1,5 @@
 <template>
-  <button @click="increment">
-    Count is: {{count}}
-  </button>
+  <button @click="increment">Count is: {{ count }}</button>
 </template>
 
 <script>
@@ -10,22 +8,20 @@ export default {
 
   data() {
     return {
-      count: 0
-    }
+      count: 0,
+    };
   },
 
   methods: {
     increment() {
-      this.count++
-    }
+      this.count++;
+    },
   },
 
   mounted() {
-    console.log('The initial count is ${this.count}.')
-  }
-}
+    console.log("The initial count is ${this.count}.");
+  },
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

@@ -9,10 +9,8 @@ import CompositionStyle from "@/components/apistyle/CompositionStyle.vue";
 
 export default {
   name: "ApiStyleView",
-  components: {CompositionStyle, OptionStyle}
-}
+  components: {CompositionStyle, OptionStyle},
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

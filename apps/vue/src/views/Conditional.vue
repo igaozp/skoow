@@ -6,7 +6,7 @@
   <div v-if="type === 'A'">A</div>
   <div v-else-if="type === 'B'">B</div>
   <div v-else-if="type === 'C'">C</div>
-  <div v-else> Not A/B/C</div>
+  <div v-else>Not A/B/C</div>
 
   <h1 v-show="ok">Hello!</h1>
 </template>
@@ -14,13 +14,11 @@
 <script setup lang="ts">
 import {ref} from "vue";
 
-const awesome = ref(true)
+const awesome = ref(true);
 
-const type = ref('A')
+const type = ref("A");
 
-const ok = ref(true)
+const ok = ref(true);
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

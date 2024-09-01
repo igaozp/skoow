@@ -12,9 +12,7 @@
       {{ value }}
     </li>
 
-    <li v-for="(value, key) in myObject">
-      {{ key }}: {{ value }}
-    </li>
+    <li v-for="(value, key) in myObject">{{ key }}: {{ value }}</li>
 
     <li v-for="(value, key, index) in myObject">
       {{ index }}. {{ key }}: {{ value }}
@@ -34,19 +32,14 @@
 <script setup lang="ts">
 import {reactive, ref} from "vue";
 
-const items = ref([
-  { message: 'Foo' },
-  { message: 'Bar' }
-])
-const parentMessage = ref('Parent')
+const items = ref([{message: "Foo"}, {message: "Bar"}]);
+const parentMessage = ref("Parent");
 
 const myObject = reactive({
-  title: 'How to do lists in Vue',
-  author: 'Jane Doe',
-  publishedAt: '2016-04-10'
-})
+  title: "How to do lists in Vue",
+  author: "Jane Doe",
+  publishedAt: "2016-04-10",
+});
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

@@ -1,13 +1,9 @@
-<template>
-
-</template>
+<template></template>
 
 <script>
 export default {
-    name: "MyButton"
-}
+  name: "MyButton",
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
