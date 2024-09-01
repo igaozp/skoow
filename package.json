@@ -11,7 +11,8 @@
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "upgrade": "pnpm up --recursive"
+    "upgrade": "pnpm up --recursive",
+    "ls": "turbo ls"
   },
   "devDependencies": {
     "eslint-config-custom": "workspace:*",

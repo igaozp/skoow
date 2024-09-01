@@ -1,4 +1,4 @@
-import {defineStore, acceptHMRUpdate} from "pinia";
+import {acceptHMRUpdate, defineStore} from "pinia";
 
 function apiLogin(a: string, p: string) {
     if (a === 'ed' && p === 'ed') {
