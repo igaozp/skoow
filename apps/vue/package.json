@@ -16,31 +16,31 @@
   },
   "dependencies": {
     "@rsbuild/core": "1.0.1-rc.0",
-    "pinia": "^2.2.2",
-    "vue": "^3.4.38",
-    "vue-router": "^4.4.3"
+    "pinia": "^2.2.4",
+    "vue": "^3.5.12",
+    "vue-router": "^4.4.5"
   },
   "devDependencies": {
-    "@rsbuild/plugin-node-polyfill": "^1.0.4",
+    "@rsbuild/plugin-node-polyfill": "^1.2.0",
     "@rsbuild/plugin-vue": "1.0.1-rc.0",
     "@rsbuild/plugin-vue-jsx": "1.0.1-rc.0",
     "@rushstack/eslint-patch": "^1.10.4",
     "@tsconfig/node20": "^20.1.4",
     "@types/jsdom": "^21.1.7",
-    "@types/node": "^22.5.1",
+    "@types/node": "^22.8.2",
     "@vue/eslint-config-prettier": "^9.0.0",
     "@vue/eslint-config-typescript": "^13.0.0",
     "@vue/test-utils": "^2.4.6",
     "@vue/tsconfig": "^0.5.1",
-    "cypress": "^13.14.1",
-    "eslint": "^8.57.0",
-    "eslint-plugin-cypress": "^3.5.0",
-    "eslint-plugin-vue": "^9.27.0",
-    "jsdom": "^25.0.0",
+    "cypress": "^13.15.1",
+    "eslint": "^8.57.1",
+    "eslint-plugin-cypress": "^3.6.0",
+    "eslint-plugin-vue": "^9.30.0",
+    "jsdom": "^25.0.1",
     "npm-run-all": "^4.1.5",
     "prettier": "^3.3.3",
-    "start-server-and-test": "^2.0.5",
-    "vitest": "^2.0.5",
-    "vue-tsc": "^2.1.4"
+    "start-server-and-test": "^2.0.8",
+    "vitest": "^2.1.4",
+    "vue-tsc": "^2.1.8"
   }
 }
