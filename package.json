@@ -15,7 +15,7 @@
     "ls": "turbo ls"
   },
   "devDependencies": {
-    "eslint-config-custom": "workspace:*",
+    "@repo/eslint-config": "workspace:*",
     "prettier": "latest",
     "turbo": "latest",
     "typescript": "latest"
