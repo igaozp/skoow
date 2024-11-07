@@ -45,6 +45,14 @@ cd skoow
 pnpm run dev
 ```
 
+### Install Dependencies
+
+To quickly install dependencies in multiple packages, you can use your package manager:
+
+```
+pnpm install jest --save-dev --recursive --filter=docs --filter=@repo/ui
+```
+
 ### Update Dependencies
 
 To update all dependencies, run the following command:
@@ -52,4 +60,10 @@ To update all dependencies, run the following command:
 ```
 cd skoow
 pnpm run upgrade
+```
+
+Keeping dependencies on the same version, run this command:
+
+```
+pnpm up --recursive typescript@latest
 ```
