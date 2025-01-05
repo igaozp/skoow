@@ -32,6 +32,9 @@
     "paths": {
       "~/*": [
         "./app/*"
+      ],
+      "react": [
+        "./node_modules/@types/react"
       ]
     },
     // Vite takes care of building everything, not tsc.
