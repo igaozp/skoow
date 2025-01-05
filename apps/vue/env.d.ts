@@ -1,1 +1,1 @@
-/// <reference types="rsbuild/client" />
+/// <reference types="@rsbuild/core/types" />
