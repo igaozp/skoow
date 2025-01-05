@@ -1,4 +1,4 @@
-export default function () {
+(() => {
     let gabby: [string, number] = ['Gabby Kao', 21]
 
     let kao: [string, number] = ['', 0]
@@ -11,4 +11,4 @@ export default function () {
     let person: [string, number, string]
     person = ['Trump', 66, 'Make America great again.']
     console.log(person)
-}
+})()

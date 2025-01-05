@@ -1,4 +1,4 @@
-export default function () {
+(() => {
     function createArray<T>(lenght: number, value: T): Array<T> {
         let result = []
         for (let i = 0; i < lenght; i++) {
@@ -40,7 +40,7 @@ export default function () {
     }
 
     let createArrays: createArrayFunc<any>
-    createArrays = function <T>(lenght: number, value: T): Array<T> {
+    createArrays = function <T>(length: number, value: T): Array<T> {
         let result = []
         for (let i = 0; i < length; i++) {
             result[i] = value
@@ -48,4 +48,5 @@ export default function () {
         return result
     }
     createArrays(3, 'x')
-}
+
+})()

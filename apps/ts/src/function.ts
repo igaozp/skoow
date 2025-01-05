@@ -1,4 +1,4 @@
-export default function () {
+(() => {
     function sum(x: number, y: number): number {
         return x + y
     }
@@ -47,4 +47,4 @@ export default function () {
             return x.split('').reverse().join('')
         }
     }
-}
+})()

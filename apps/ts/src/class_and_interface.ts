@@ -1,4 +1,4 @@
-export default function () {
+(() => {
     interface Alarm {
         alert(): any
     }
@@ -80,4 +80,6 @@ export default function () {
     c(10)
     c.reset()
     c.interval = 5.0
-}
+
+    console.log(c)
+})()

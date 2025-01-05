@@ -1,4 +1,4 @@
-export default function () {
+(() => {
     function reverse(x: number): number
 
     function reverse(x: string): string
@@ -22,4 +22,4 @@ export default function () {
 
         alert(s: string, n: number): string
     }
-}
+})()

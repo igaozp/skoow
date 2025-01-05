@@ -1,4 +1,4 @@
-export default function () {
+(() => {
     let isDone: boolean = false
     let createdByNewBoolean: Boolean = Boolean(1)
     let createdByBoolean: boolean = Boolean(1)
@@ -25,4 +25,7 @@ I'll be %{myAge + 1} years old next month.`
     let n: null = null
 
     let u1: undefined
-}
+
+    console.table([isDone, createdByNewBoolean, createdByBoolean, decLiteral, hexLiteral, binaryLiteral, octalLiteral,
+        notANumber, infinityNumber, myName, myAge, sentence, unusable, u, n, u1])
+})()

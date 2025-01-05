@@ -1,4 +1,4 @@
-export default function () {
+namespace array {
     let fibonacci: number[] = [1, 1, 2, 3, 5]
     fibonacci.push(8)
 
@@ -14,5 +14,16 @@ export default function () {
 
     function sum() {
         let args: IArguments = arguments
+        return args;
+    }
+
+    export function main() {
+        console.log(fibonacci)
+        console.log(array)
+        console.log(num)
+        console.log(list)
+        console.log(sum())
     }
 }
+
+array.main()

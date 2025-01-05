@@ -1,6 +1,8 @@
-function say_hello(person: string) {
-    return 'Hello, ' + person
-}
+(() => {
+    function sayHello(person: string) {
+        return 'Hello, ' + person
+    }
 
-let user = 'Gabby'
-console.log(say_hello(user))
+    let user = 'Gabby'
+    console.log(sayHello(user))
+})()

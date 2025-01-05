@@ -1,4 +1,4 @@
-export default function () {
+(() => {
     interface PersonA {
         name: string
         age: number
@@ -32,4 +32,6 @@ export default function () {
         name: 'C',
         website: 'https://igaozp.me'
     }
-}
+
+    console.table([a, b, c])
+})()

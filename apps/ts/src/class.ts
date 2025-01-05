@@ -1,4 +1,4 @@
-export default function () {
+(() => {
     class Animal {
         public name
         private age
@@ -39,4 +39,5 @@ export default function () {
 
     let circle: Share = new Circle('circle')
     console.log(circle.sayHi())
-}
+
+})()

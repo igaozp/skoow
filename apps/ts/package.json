@@ -2,5 +2,29 @@
   "name": "ts",
   "version": "1.0.0",
   "description": "",
-  "private": true
+  "private": true,
+  "scripts": {
+    "start:any_type": "ts-node src/any_type.ts",
+    "start:array": "ts-node src/array.ts",
+    "start:build_in_objects": "ts-node src/build_in_objects.ts",
+    "start:class": "ts-node src/class.ts",
+    "start:class_and_interface": "ts-node src/class_and_interface.ts",
+    "start:declartion_merging": "ts-node src/declaration_merging.ts",
+    "start:enum": "ts-node src/enum.ts",
+    "start:function": "ts-node src/function.ts",
+    "start:generics": "ts-node src/generics.ts",
+    "start:interfaces": "ts-node src/interfaces.ts",
+    "start:primitive_data_types": "ts-node src/primitive_data_types.ts",
+    "start:say_hello": "ts-node src/say_hello.ts",
+    "start:string_literal_types": "ts-node src/string_literal_types.ts",
+    "start:tuple": "ts-node src/tuple.ts",
+    "start:type_aliases": "ts-node src/type_aliases.ts",
+    "start:type_assertion": "ts-node src/type_assertion.ts",
+    "start:union_types": "ts-node src/union_types.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.1",
+    "@types/node": "^20.0.0"
+  }
 }
